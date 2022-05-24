@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="popup__container">
+        <h1 class="title">GamiTranslate</h1>
+
+        <ul class="tabs__container flex justify-between gap-1">
+          <li class="tab tab--active" id="listening">Listening</li>
+          <li class="tab" id="vocabulary">Vocabulary</li>
+          <li class="tab" id="speaking">Speaking</li>
+        </ul>
+
+        <div class="cardssetting__container">
+          <h2 class="cardssetting__title title text-center">Card Config</h2>
+          <div class="cardsconfig flex justify-between gap-1">
+            <div class="cardspersession container">
+              <h3 class="subtitle">Per Session</h3>
+              <select name="cardspersession__combo" id="cardspersession__combo">
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+                <option>personalized</option>
+                <option>all</option>
+              </select>
+            </div>
+            <div class="cardssorting container">
+              <h3 class="subtitle">Sorting</h3>
+              <select name="cardssorting__combo" id="cardssorting__combo">
+                <option>new first</option>
+                <option>randomly</option>
+                <option>alphabetically</option>
+                <option>most repeated</option>
+                <option>most usefull</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="action__container flex justify-center">
+          <button class="button button--primary">Start</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="../js/popup.js"></script>
+  </body>
+</html>

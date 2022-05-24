@@ -1,0 +1,18 @@
+:root {
+  --fw-1: 100;
+  --fw-2: 200;
+  --fw-3: 300;
+  --fw-4: 400;
+  --fw-5: 500;
+  --fw-bold: 600;
+
+  --bg-neutral-0: #ffffff;
+  --bg-neutral-1: #fffdfd;
+  --bg-neutral-8: #dddcdc;
+  --bg-neutral-transparent: #dddcdc8c;
+
+  --bg-primary: #76b0f4;
+  --bg-gray: #f3f5f7;
+  --bg-light-primary: #76b0f478;
+  --bg-light-purple: #f6f6f7;
+}

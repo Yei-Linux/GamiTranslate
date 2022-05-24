@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body,
+input,
+select,
+option,
+button {
+  font-family: "Mali", cursive;
+}
+
+input,
+select,
+option,
+button {
+  outline: none;
+}
+
+select:hover,
+option:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}

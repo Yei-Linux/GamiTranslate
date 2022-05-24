@@ -1,0 +1,29 @@
+.tabs__container {
+  margin-top: 1rem;
+  background-color: var(--bg-light-purple);
+  padding: 1rem;
+  border-radius: 0.4em;
+  -webkit-box-shadow: 2px 2px 21px -11px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 2px 21px -11px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 2px 21px -11px rgba(0, 0, 0, 0.45);
+}
+
+.tab {
+  padding: 5px;
+  background-color: var(--bg-neutral-0);
+  color: var(--bg-primary);
+  border-radius: 0.4em;
+  border: 1px solid var(--bg-primary);
+  font-weight: var(--fw-bold);
+}
+
+.tab--active {
+  background-color: var(--bg-primary);
+  color: var(--bg-neutral-0);
+}
+
+.tab:hover {
+  cursor: pointer;
+  background-color: var(--bg-primary);
+  color: var(--bg-neutral-0);
+}

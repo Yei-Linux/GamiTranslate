@@ -1,0 +1,18 @@
+.cardssetting__container {
+  background-color: var(--bg-light-purple);
+  padding: 1rem;
+  border-radius: 0.4em;
+  -webkit-box-shadow: 2px 2px 21px -11px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 2px 21px -11px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 2px 21px -11px rgba(0, 0, 0, 0.45);
+
+  margin-top: 1rem;
+}
+
+.cardssetting__title {
+  font-size: 15px;
+}
+
+.cardsconfig {
+  margin-top: 1rem;
+}

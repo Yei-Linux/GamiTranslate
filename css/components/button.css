@@ -1,0 +1,15 @@
+.button {
+  padding: 5px;
+  border: none;
+  border-radius: 0.4em;
+  min-width: 150px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: var(--bg-primary);
+  color: var(--bg-neutral-0);
+}
