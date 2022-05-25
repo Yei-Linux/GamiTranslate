@@ -1,3 +1,14 @@
+export const cardsSaved = [
+  {
+    text: "behavior",
+    meaningOf: "Its a way how human acts",
+  },
+  {
+    text: "human",
+    meaningOf: "Its a person",
+  },
+];
+
 export const perSessionCards = [
   {
     value: "none",
