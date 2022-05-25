@@ -3,7 +3,7 @@
   "description": "GamiTranslate",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": [],
+  "permissions": ["storage"],
   "host_permissions": [],
   "background": {
     "service_worker": "js/background.js"

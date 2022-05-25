@@ -9,40 +9,67 @@
         <h1 class="title">GamiTranslate</h1>
 
         <ul class="tabs__container flex justify-between gap-1">
-          <li class="tab tab--active" id="listening">Listening</li>
+          <li class="tab" id="listening">Listening</li>
           <li class="tab" id="vocabulary">Vocabulary</li>
           <li class="tab" id="speaking">Speaking</li>
         </ul>
 
         <div class="cardssetting__container">
           <h2 class="cardssetting__title title text-center">Card Config</h2>
-          <div class="cardsconfig flex justify-between gap-1">
+          <form class="cardsconfig flex justify-between gap-1">
             <div class="cardspersession container">
               <h3 class="subtitle">Per Session</h3>
               <select name="cardspersession__combo" id="cardspersession__combo">
-                <option>5</option>
-                <option>10</option>
-                <option>15</option>
-                <option>20</option>
-                <option>personalized</option>
-                <option>all</option>
+                <option value="none" id="cardspersession__none">
+                  select one option
+                </option>
+                <option value="5" id="cardspersession__5">5</option>
+                <option value="10" id="cardspersession__10">10</option>
+                <option value="15" id="cardspersession__15">15</option>
+                <option value="20" id="cardspersession__20">20</option>
+                <option value="personalized" id="cardspersession__personalized">
+                  personalized
+                </option>
+                <option value="all" id="cardspersession__all">all</option>
               </select>
             </div>
             <div class="cardssorting container">
               <h3 class="subtitle">Sorting</h3>
               <select name="cardssorting__combo" id="cardssorting__combo">
-                <option>new first</option>
-                <option>randomly</option>
-                <option>alphabetically</option>
-                <option>most repeated</option>
-                <option>most usefull</option>
+                <option value="none" id="cardssorting__none">
+                  select one option
+                </option>
+                <option value="new_first" id="cardssorting__new_first">
+                  new first
+                </option>
+                <option value="randomly" id="cardssorting__randomly">
+                  randomly
+                </option>
+                <option
+                  value="alphabetically"
+                  id="cardssorting__alphabetically"
+                >
+                  alphabetically
+                </option>
+                <option value="most_repeated" id="cardssorting__most_repeated">
+                  most repeated
+                </option>
+                <option value="most_usefull" id="cardssorting__most_usefull">
+                  most usefull
+                </option>
               </select>
             </div>
-          </div>
+          </form>
         </div>
 
         <div class="action__container flex justify-center">
-          <button class="button button--primary">Start</button>
+          <button
+            type="submit"
+            class="button button--primary"
+            id="formLearnButton"
+          >
+            Start
+          </button>
         </div>
       </div>
     </main>
